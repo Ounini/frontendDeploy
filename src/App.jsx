@@ -8,12 +8,14 @@ import Clothes from "./component/Clothes";
 
 function App() {
   return (
-    <Routes>
+    <>
       <Naved />
-      <Route path="/" element={<Home />} />
-      <Route path="/shoes" element={<Shoes />} />
-      <Route path="/Clothes" element={<Clothes />} />
-    </Routes>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/shoes" element={<Shoes />} />
+        <Route path="/Clothes" element={<Clothes />} />
+      </Routes>
+    </>
   );
 }
 
