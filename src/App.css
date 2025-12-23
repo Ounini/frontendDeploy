@@ -1,0 +1,16 @@
+body {
+  background-color: rgba(33, 33, 33, 1);
+  color: white;
+  text-align: center;
+}
+.col {
+  border: 1px solid green;
+  background-color: lightgreen;
+  padding: 20px;
+}
+
+@media (max-width: 600px) and (min-width: 200px) {
+  .container-nav {
+    width: 100%;
+  }
+}
